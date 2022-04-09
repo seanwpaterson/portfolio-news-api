@@ -14,7 +14,7 @@ app.get('/login', (req, res) => {
 });
 
 app.get('/register', (req, res) => {
-    res.json("This will be the register page")
+    res.json("This will be the register")
 });
 
 app.listen(PORT, () => console.log(`Server is running on ${PORT}`));
