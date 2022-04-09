@@ -63,7 +63,6 @@ app.get('/news', (req, res) => {
 app.listen(PORT, () => console.log(`Server is running on ${PORT}`));
 
 function getArticles(company) {
-
     sources.forEach(source => {
         axios.get(source.url.concat(company))
             .then((response) => {
