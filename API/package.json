@@ -6,7 +6,11 @@
   "scripts": {
     "start": "nodemon index.js"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanwpaterson/portfolio-news-api.git"
+  },
+  "author": "Sean Paterson",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.26.1",
