@@ -17,4 +17,6 @@ app.get('/register', (req, res) => {
     res.json("This will be the register")
 });
 
+// this is a test change
+
 app.listen(PORT, () => console.log(`Server is running on ${PORT}`));
